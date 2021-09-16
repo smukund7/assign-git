@@ -1,0 +1,15 @@
+1.
+gitignore is a text file that contains all the files that git has to ignore. Eg, all the .project files can be ignored and hence wouldn't be copied to another user's local.
+the previously committed files must be ignored from the git by using git rm --cached filename and now add the filename.java (with the extension) onto your .gitignore files. 
+After that, add it to your branch and commit them. Once you push it to the branch/main, it will be ignored.
+
+2.
+Fast forward occurs when there is a direct linear path from the current branch head/tip to the intended destination branch. So, the commit is done by following the first 
+commit's history and this called a fast-forward.
+
+3.
+Branching can help the development process move faster by allowing simultaneously changes, updates or commits. This way, one person's work doesn't affect the other.
+
+4.
+A project can have any number of repositories depending on how the team decides to create teams and sub-projects to get to the end product.
+There were 23-25 repositories and branches in my previous project during my internship.
